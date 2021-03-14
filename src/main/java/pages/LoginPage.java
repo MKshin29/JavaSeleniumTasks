@@ -16,13 +16,15 @@ public class LoginPage {
     @FindBy(name = "login")
     private WebElement loginInput;
 
-    @FindBy(xpath = "//*[@id=\"mailbox\"]/form[1]/button[1]")
+    //@FindBy(xpath = "//*[@id=\"mailbox\"]/form[1]/button[1]")
+    @FindBy(xpath = "//button[contains(text(), \"Ввести пароль\")]")
     private WebElement prePasswordButton;
 
     @FindBy(name = "password")
     private WebElement passwordInput;
 
-    @FindBy(xpath = "//*[@id=\"mailbox\"]/form[1]/button[2]")
+    //@FindBy(xpath = "//*[@id=\"mailbox\"]/form[1]/button[2]")
+    @FindBy(xpath = "//button[contains(text(), \"Войти\")][@data-testid='login-to-mail']")
     private WebElement submitCredentialsButton;
 
     public LoginPage(WebDriver driver) {

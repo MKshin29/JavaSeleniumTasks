@@ -12,13 +12,17 @@ import java.util.List;
 public class App {
 
     public static void main(String[] args) throws Exception{
-        String login = "login";
-        String password = "password";
+        //String login = "login";
+        String login = "kvlasov29";
+        //String password = "password";
+        String password = "Mikeshinoda1990##";
         //как обычно, раскомментируй что бы проверить :)
         //тут понадобятся логин и пароль для авторизации
         //seleniumTaskPart1(login, password);
 
         seleniumTaskPart2(login, password);
+
+        //cucumberTask();
     }
 
     public static void seleniumTaskPart1(String login, String password) throws Exception{
@@ -80,7 +84,11 @@ public class App {
         System.out.println("Непрочитанных сообщений: " + mailboxPage.getNewMessagesCount());
 
         //отмечаем письма как прочитанные
-        mailboxPage.markMessagesReadOneByOne();
+        mailboxPage.markMessagesReadOneByOne(4);
+
+    }
+
+    public static void cucumberTask() {
 
     }
 
