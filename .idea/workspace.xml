@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1bfc53-1125-4c69-9ddc-4a5543c9da8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MailboxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MailboxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MailboxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MailboxPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       <updated>1613054813044</updated>
       <workItem from="1613054814861" duration="16662000" />
       <workItem from="1613290443169" duration="5022000" />
-      <workItem from="1615720797702" duration="13969000" />
+      <workItem from="1615720797702" duration="14295000" />
     </task>
     <servers />
   </component>
@@ -151,26 +149,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="563" y="201" key="#RunnerTest/0.0.1920.1040@0.0.1920.1040" timestamp="1613295387104" />
-    <state x="761" y="389" width="398" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1613293731936">
+    <state x="781" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1615736386937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="389" width="398" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1613293731936" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615735980823">
+    <state x="781" y="215" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615736386937" />
+    <state x="761" y="389" width="398" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1615736307623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615735980823">
+    <state x="761" y="389" width="398" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1615736307623" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615736249657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615735980823">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615736249657" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615736249657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615735980823">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615736249657" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615736249656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615736249656" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615736249657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615736249657" />
     <state x="625" y="235" key="run.anything.popup" timestamp="1613290489355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
