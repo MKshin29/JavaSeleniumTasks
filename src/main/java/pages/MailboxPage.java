@@ -57,8 +57,13 @@ public class MailboxPage {
         PageFactory.initElements(webDriver, this);
     }
 
-    private void waitMessagesDownload() {
+    public boolean waitMessagesDownload() {
         wait.until(ExpectedConditions.presenceOfElementLocated(By.className("dataset__items")));
+        return true;
+    }
+
+    public List<WebElement> getUnreadMessages(){
+        return unreadMessages;
     }
 
     public int getNewMessagesCount() {
@@ -98,7 +103,7 @@ public class MailboxPage {
                 break;
             }
         }
-        
+
     }
 
 }

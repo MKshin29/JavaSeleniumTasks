@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1bfc53-1125-4c69-9ddc-4a5543c9da8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/UnreadMessageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/features/mailru.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MyStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MailboxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MailboxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/MailboxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MailboxPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +45,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="com.sel.example" />
@@ -66,27 +62,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tasks" />
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.sel.example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.allMessagesSetRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.sel.example" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RunnerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="allMessagesSetRead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.enterMailbox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.sel.example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="enterMailbox" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.unreadMessagesShown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.sel.example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="unreadMessagesShown" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.allMessagesSetRead" />
+        <item itemvalue="JUnit.AppTest.unreadMessagesShown" />
+        <item itemvalue="JUnit.AppTest.enterMailbox" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.RunnerTest" />
-        <item itemvalue="Application.Tasks" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +135,7 @@
       <updated>1613054813044</updated>
       <workItem from="1613054814861" duration="16662000" />
       <workItem from="1613290443169" duration="5022000" />
-      <workItem from="1615720797702" duration="10889000" />
+      <workItem from="1615720797702" duration="13969000" />
     </task>
     <servers />
   </component>
@@ -122,6 +143,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Project_Structure" timestamp="1615733316452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1615733316452" />
     <state x="563" y="201" key="#RunnerTest" timestamp="1613295387104">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -130,22 +155,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="389" width="398" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1613293731936" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615732786543">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1615735980823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615732786543" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615732786543">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1615735980823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615732786543" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615732786542">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1615735980823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615732786542" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615732786543">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1615735980823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615732786543" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615735980823" />
     <state x="625" y="235" key="run.anything.popup" timestamp="1613290489355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
